@@ -1,3 +1,22 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "hero-image",
+      "description": "A beautiful lush green farm landscape under a clear blue sky.",
+      "imageUrl": "https://images.unsplash.com/photo-1451440063999-77a8b2960d2b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxmYXJtJTIwbGFuZHNjYXBlfGVufDB8fHx8MTc1ODYwMjQ1OXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "farm landscape"
+    },
+    {
+      "id": "auth-background",
+      "description": "Close-up of vibrant green leaves with water droplets.",
+      "imageUrl": "https://images.unsplash.com/photo-1572248525483-6a953490f4b5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxncmVlbiUyMGxlYXZlc3xlbnwwfHx8fDE3NTg2OTUxNjV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "green leaves"
+    },
+    {
+      "id": "avatar-placeholder",
+      "description": "A portrait of a smiling farmer.",
+      "imageUrl": "https://images.unsplash.com/photo-1618496899001-b58ebcbeef26?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxmYXJtZXIlMjBwb3J0cmFpdHxlbnwwfHx8fDE3NTg2MDI0NTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "farmer portrait"
+    }
+  ]
 }
