@@ -4,7 +4,7 @@ import { Toaster } from "@/components/ui/toaster";
 import { cn } from "@/lib/utils";
 
 export const metadata: Metadata = {
-  title: "Krishi Sakha",
+  title: "Krishi Sakhi",
   description: "AI-powered agricultural advisor for farmers",
 };
 

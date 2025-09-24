@@ -7,7 +7,7 @@ export function Logo({ className, inSidebar }: { className?: string, inSidebar?:
   return (
     <Link href={linkTarget} className={cn('flex items-center gap-2 text-foreground', className)}>
       <Sprout className="h-7 w-7 text-primary" />
-      <span className="text-xl font-bold font-headline">Krishi Sakha</span>
+      <span className="text-xl font-bold font-headline">Krishi Sakhi</span>
     </Link>
   );
 }

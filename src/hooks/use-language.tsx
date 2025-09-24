@@ -18,7 +18,7 @@ export const LanguageProvider = ({ children }: { children: React.ReactNode }) =>
   const [isMounted, setIsMounted] = useState(false);
 
   useEffect(() => {
-    const storedLanguage = localStorage.getItem('krishi_sakha_language') as Language;
+    const storedLanguage = localStorage.getItem('krishi_sakhi_language') as Language;
     if (storedLanguage && ['en', 'ml'].includes(storedLanguage)) {
       setLanguageState(storedLanguage);
     }
@@ -28,7 +28,7 @@ export const LanguageProvider = ({ children }: { children: React.ReactNode }) =>
   const setLanguage = (lang: Language) => {
     setLanguageState(lang);
     if(typeof window !== 'undefined'){
-        localStorage.setItem('krishi_sakha_language', lang);
+        localStorage.setItem('krishi_sakhi_language', lang);
     }
   };
 

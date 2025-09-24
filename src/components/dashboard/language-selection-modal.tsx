@@ -17,7 +17,7 @@ export default function LanguageSelectionModal() {
   const { setLanguage, t } = useLanguage();
 
   useEffect(() => {
-    const langPreference = localStorage.getItem('krishi_sakha_language');
+    const langPreference = localStorage.getItem('krishi_sakhi_language');
     if (!langPreference) {
       setIsOpen(true);
     }
