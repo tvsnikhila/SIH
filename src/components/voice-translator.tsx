@@ -12,7 +12,7 @@ import {
 } from '@/components/ui/dialog';
 import { Button } from './ui/button';
 import { Mic, Square, Loader2, Languages } from 'lucide-react';
-import { useToast } from './ui/use-toast';
+import { useToast } from '@/hooks/use-toast';
 import { translateEnglishToMalayalam } from '@/ai/flows/voice-based-translation';
 import { Card, CardContent } from './ui/card';
 
